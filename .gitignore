@@ -1,0 +1,7 @@
+/target
+/out
+
+# Local sample artwork and fonts (kept out of the repo)
+/*.pdf
+/*.ttf
+.DS_Store

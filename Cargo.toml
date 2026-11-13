@@ -1,0 +1,16 @@
+[package]
+name = "motifont"
+version = "0.1.0"
+edition = "2024"
+description = "Build TrueType motif/dingbat fonts from PDF artwork or scanned images"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.104"
+chrono = "0.4.45"
+clap = { version = "4.6.7", features = ["derive"] }
+image = { version = "0.25.10", default-features = false, features = ["tiff", "png", "jpeg", "gif", "bmp"] }
+kurbo = "0.13.1"
+linesweeper = "0.5.0"
+lopdf = "0.47.0"
+write-fonts = "0.56.0"
